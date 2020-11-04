@@ -7,6 +7,10 @@ const path = require("path");
 const fs = require("fs");
 
 
+// const indexJS = require("./public/assets/js/index.js");
+// console.log(indexJS);
+
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
