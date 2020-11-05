@@ -1,13 +1,13 @@
 const router = require("express").Router();
-const { route } = require("express/lib/router");
+// const { route } = require("express/lib/router");
 const path = require("path");
 const Store = require("../db/store");
 
-router.get("/notes", (req, res) => {
+router.get("/notes", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
 
-router.get("*", (req, res) => {
+router.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
@@ -21,3 +21,5 @@ router.post("/api/notes", (req, res) => {
 });
 
 module.exports = router;
+
+console.log("Routes work");
