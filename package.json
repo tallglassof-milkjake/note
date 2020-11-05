@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "module-exports": "^1.0.0",
+    "util": "^0.12.3",
+    "uuidv1": "^1.6.14"
   },
   "repository": {
     "type": "git",
