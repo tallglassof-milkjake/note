@@ -1,15 +1,16 @@
 const express = require("express");
-const routes = require("./routes/routes.js")
-const Store = require("./db/store.js");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const router = require("express").Router();
 
-const path = require("path");
-const fs = require("fs");
+const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static(__dirname));
+
+
+require("./routes/htmlRoutes")(app);
+require("./routes/routes")(router);
 
 
 app.listen(PORT, function() {

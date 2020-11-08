@@ -1,7 +1,5 @@
 const util = require("util");
 const fs = require("fs");
-const router = require("../routes/routes.js")
-
 const uuidv1 = require("uuidv1");
 
 const readFileAsync = util.promisify(fs.readFile);
