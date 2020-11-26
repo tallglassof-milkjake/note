@@ -5,26 +5,7 @@ const path = require("path");
 
 module.exports = function(app) {
     app.post("/api/notes", function(req, res) {
-        // fs.readFile("../db/db.json", function(err, data) {
-        //     if (err) throw err;
-
-        //     let json = JSON.parse(data);
-        //     let note = {
-        //         title: req.body.title,
-        //         text: req.bosy.text,
-        //         id: uuid()
-        //     }
-
-        //     json.push(note);
-
-        //     fs.writeFile("../db/db.json", JSON.stringify(json, null, 2), function(err) {
-        //         if (err) throw err;
-        //         res.send("200");
-        //     });
-        // });
-
-
-        // let noteID = uuid();
+        
         let newNote = {
             title: req.body.title,
             text: req.body.text,
@@ -75,8 +56,7 @@ module.exports = function(app) {
               console.error(err);
             }
           });
-      })
-      
+        });
     };
 };
 
