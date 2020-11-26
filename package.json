@@ -13,7 +13,8 @@
     "fs": "0.0.1-security",
     "module-exports": "^1.0.0",
     "util": "^0.12.3",
-    "uuidv1": "^1.6.14"
+    "uuidv1": "^1.6.14",
+    "uuidv4": "^6.2.5"
   },
   "repository": {
     "type": "git",
