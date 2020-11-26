@@ -12,6 +12,8 @@
 
 * **[Testing](#Testing)**
 
+* **[Screenshots](#Screenshots)**
+
 * **[Questions](#Questions)**
 
 
@@ -33,6 +35,17 @@ None
 ### Testing
 
 None
+
+
+### Screenshots
+
+![Index Page](Assets/index_page.png)
+
+![Note Storage](Assets/NoteStorage.png)
+
+![Add Note](Assets/AddNote.png)
+
+![Notes Page](Assets/NotesPage.png)
 
 
 ### Questions
