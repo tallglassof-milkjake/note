@@ -1,1 +1,16 @@
-[{"title":"Something Really Interesting","text":"This text is really interesting. If you keep reading it will blow your mind"},{"title":"Delete Function Test","text":"Changing around some functionality to see what works","id":"b1966ac0-301a-11eb-8b8d-d5971c1ebd4c"}]
+[
+  {
+    "title": "Something Really Interesting",
+    "text": "This text is really interesting. If you keep reading it will blow your mind"
+  },
+  {
+    "title": "Delete Function Test",
+    "text": "Changing around some functionality to see what works",
+    "id": "b1966ac0-301a-11eb-8b8d-d5971c1ebd4c"
+  },
+  {
+    "title": "My Note",
+    "text": "A test note to show it functions",
+    "id": "bbeef7b0-301c-11eb-847f-b39b7602096a"
+  }
+]
